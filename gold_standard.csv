@@ -1,0 +1,31 @@
+Source Folder,File Name,Original Column Name,Target Label (Gold Standard)
+MIMIC_III_SetA,PATIENTS.csv,SUBJECT_ID,Patient Identifier
+MIMIC_IV/hosp,patients.csv,subject_id,Patient Identifier
+MIMIC_III_SetA,ADMISSIONS.csv,HADM_ID,Hospital Admission ID
+MIMIC_IV/hosp,admissions.csv,hadm_id,Hospital Admission ID
+MIMIC_III_SetA,ICUSTAYS.csv,ICUSTAY_ID,ICU Stay Identifier
+MIMIC_IV/icu,icustays.csv,stay_id,ICU Stay Identifier
+MIMIC_III_SetA,ADMISSIONS.csv,ADMITTIME,Admission Timestamp
+MIMIC_IV/hosp,admissions.csv,admittime,Admission Timestamp
+MIMIC_III_SetA,PATIENTS.csv,DOB,Date of Birth
+MIMIC_IV/hosp,patients.csv,anchor_age,Patient Age
+MIMIC_III_SetA,ADMISSIONS.csv,ETHNICITY,Ethnicity/Race
+MIMIC_IV/hosp,admissions.csv,race,Ethnicity/Race
+MIMIC_III_SetA,OUTPUTEVENTS.csv,ITEMID,Clinical Item Code
+MIMIC_IV/icu,outputevents.csv,itemid,Clinical Item Code
+MIMIC_III_SetA,PRESCRIPTIONS.csv,DRUG,Medication Name
+MIMIC_IV/hosp,prescriptions.csv,drug,Medication Name
+MIMIC_III_SetA,DIAGNOSES_ICD.csv,ICD9_CODE,Diagnosis Code
+MIMIC_IV/hosp,diagnoses_icd.csv,icd_code,Diagnosis Code
+MIMIC_III_SetA,OUTPUTEVENTS.csv,VALUE,Measurement Value
+MIMIC_IV/icu,outputevents.csv,value,Measurement Value
+MIMIC_III_SetA,PATIENTS.csv,GENDER,Patient Gender
+MIMIC_IV/hosp,patients.csv,gender,Patient Gender
+MIMIC_III_SetA,SERVICES.csv,CURR_SERVICE,Medical Service Type
+MIMIC_IV/hosp,services.csv,curr_service,Medical Service Type
+MIMIC_III_SetA,MICROBIOLOGYEVENTS.csv,ORG_NAME,Organism Name
+MIMIC_IV/hosp,microbiologyevents.csv,org_name,Organism Name
+MIMIC_IV/icu,d_items.csv,abbreviation,Label Abbreviation
+MIMIC_IV/icu,procedureevents.csv,location,Anatomical Location
+MIMIC_III_SetA,PRESCRIPTIONS.csv,ROUTE,Drug Administration Route
+MIMIC_IV/icu,icustays.csv,los,Length of Stay

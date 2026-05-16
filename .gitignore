@@ -1,0 +1,15 @@
+# Sembunyikan folder data lake dari Git
+dataset/
+dataset/raw/
+
+# KUNCI: Abaikan SEMUA file biner/model .pkl di dalam folder output
+output/**/*.pkl
+output/*.pkl
+
+# TAMBAHKAN INI: Sembunyikan environment virtual agar tidak overload
+env_sti/
+
+# Sembunyikan cache Python dan Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
